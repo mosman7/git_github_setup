@@ -90,5 +90,9 @@ How to add changes to github repo from localhost
 - git commit -m "updated"
 - git push -u origin main
 
+<<<<<<< HEAD
 Making changes to localhost from github
 - git pull
+=======
+### This change was done on github
+>>>>>>> fe5404f0cfa2ddeef4c58a066c62edbbd315bd91
