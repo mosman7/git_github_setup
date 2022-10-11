@@ -51,9 +51,10 @@
 
 first_name = "Mohamed"
 last_name = "Osman"
-salary = "40"
+salary = 40
 
 print(first_name)
 print(last_name)
 print(first_name, last_name)
-print(first_name + " " + last_name + " " + salary)
+print(first_name + " " + last_name, salary) # use a comma to combine int and string
+print(f"Hello {first_name} {last_name} {salary}") # f string allows you to combine different variables together
