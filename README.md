@@ -89,3 +89,6 @@ How to add changes to github repo from localhost
 - this pushes any changes made current location
 - git commit -m "updated"
 - git push -u origin main
+
+Making changes to localhost from github
+- git pull
