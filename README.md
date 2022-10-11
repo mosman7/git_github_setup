@@ -182,10 +182,9 @@ print(greeting.islower())  # is the string lowercase
 print(greeting.startswith("H"))  # does the string start with the letter H
 print(greeting.endswith("d"))  # does the string end with the letter d
 print(greeting.isdigit())  # is the string all digits
-```
-
-```python
-greeting = "Hello World"
+string indexing - starts from 0]
+H e l l o W o r l d !
+1 2 3 4 5 6 7 8 9 10 11
 print(greeting[5:2])  #- prints charachters 0 - 5
 print(greeting[6:12]) #- prints characters 6 - 11
 

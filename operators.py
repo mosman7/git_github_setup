@@ -21,14 +21,14 @@
 # print(a<b)
 # print(a==b)
 
-#Boolean builtin methods in python
-greeting = ("Hello World")
-print(greeting)
-print(greeting.isalpha())  # is the string all alphabets
-print(greeting.islower())  # is the string lowercase
-print(greeting.startswith("H"))  # does the string start with the letter H
-print(greeting.endswith("d"))  # does the string end with the letter d
-print(greeting.isdigit())  # is the string all digits
+# #Boolean builtin methods in python
+# greeting = ("Hello World")
+# print(greeting)
+# print(greeting.isalpha())  # is the string all alphabets
+# print(greeting.islower())  # is the string lowercase
+# print(greeting.startswith("H"))  # does the string start with the letter H
+# print(greeting.endswith("d"))  # does the string end with the letter d
+# print(greeting.isdigit())  # is the string all digits
 
 
 
@@ -47,3 +47,13 @@ print(greeting.isdigit())  # is the string all digits
 # print(example_text.upper()) # makes all text upper case
 # print(example_text.capitalize()) # makes first letter capital
 # print(example_text.replace("some", "hello")) # replaces the words specified
+
+
+first_name = "Mohamed"
+last_name = "Osman"
+salary = "40"
+
+print(first_name)
+print(last_name)
+print(first_name, last_name)
+print(first_name + " " + last_name + " " + salary)
