@@ -51,7 +51,7 @@ uk_resident = input()
 ### Generating a new SSH key
 - Open git bash admin
 - Paste in the below text and sub in your email
-```
+```python
 $ ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 - When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location.
@@ -59,23 +59,33 @@ $ ssh-keygen -t ed25519 -C "your_email@example.com"
 
 ### Adding your SSH key to the ssh-agent
 - In Git bash admin type:
-```
+```python
 eval "$(ssh-agent -s)"
-- ```
-- This should return:
 ```
+- This should return:
+```python
 Agent pid 59566
 ```
 - Now add your SSH private key to the ssh-agent, if you created your key with a different name replace 'id_ed' with the name of your private key file.
-```
+```python
  ssh-add ~/.ssh/id_ed
 ```
 - Now add the SSH key to your account on github
 
-### Create a repository on GitHub and follow the below steps to connect github to pycharm
+## Create a repository on GitHub and follow the below steps to connect github to pycharm
+
 - git init
 - git add .
 - git commit -m "updated"
 - git branch -M main
 - git remote add origin "git@github.com:[username]/[repository].git"
+- git push -u origin main
+
+#### Git & GitHub
+How to add changes to github repo from localhost
+- If you are unsure what changes you made:
+- git status
+- git add . / git add filename
+- this pushes any changes made current location
+- git commit -m "updated"
 - git push -u origin main
