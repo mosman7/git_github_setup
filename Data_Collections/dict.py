@@ -62,5 +62,5 @@ print(story1["end"])
 #7 - Now let's add a new key:value pair.
     # 'hero': yourSuperHero
 
-story1["hero"]= "Mr Shahrukh"
+story1["hero"]= "Angel"
 print(story1)

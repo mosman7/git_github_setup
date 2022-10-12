@@ -47,6 +47,8 @@ Making changes to localhost from github
 - git commit -m "new"
 - git pull
 
+### Git commands
+
 ```python
 $ git
 usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
